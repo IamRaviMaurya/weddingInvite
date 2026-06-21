@@ -137,9 +137,9 @@ function SaveDate() {
       <h2>Save the Date</h2>
       <p className="date-copy">Scratch below to reveal our wedding date</p>
       <div className="scratch-grid">
-        <ScratchCard label="Month" value="July" />
-        <ScratchCard label="Day" value="01" />
-        <ScratchCard label="Year" value="2026" />
+        <ScratchCard label="Month" value="soon.." />
+        <ScratchCard label="Day" value="soon.." />
+        <ScratchCard label="Year" value="soon.." />
       </div>
     </section>
   );
