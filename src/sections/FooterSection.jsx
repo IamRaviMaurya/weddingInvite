@@ -12,12 +12,12 @@ export function FooterSection() {
       <span className="footer-regards">Warm regards,</span>
       <span className="footer-family">{couple.family}</span>
       <span className="footer-name">
-        {couple.bride} & {couple.groom}
+        {couple.groom} & {couple.bride}  
       </span>
-      <button type="button" onClick={() => window.open('https://instagram.com/invifestbyaastha', '_blank')}>
+      {/* <button type="button" onClick={() => window.open('https://instagram.com/invifestbyaastha', '_blank')}>
         TO BUY, SIMPLY SEND US A DM
-      </button>
-      <div className="footer-credit">CRAFTED WITH LOVE BY INVIFEST INDIA</div>
+      </button> */}
+      <div className="footer-credit">CRAFTED WITH LOVE BY RAVI</div>
     </footer>
   );
 }

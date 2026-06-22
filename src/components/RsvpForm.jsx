@@ -50,12 +50,12 @@ export function RsvpForm() {
 
   return (
     <section className="rsvp-section" id="rsvp">
-      <span className="sec-label">Join the Celebration</span>
-      <h2 className="sec-heading">RSVP</h2>
-      <p className="section-copy">Kindly let us know if you can make it. Your presence will make this celebration whole.</p>
+      {/* <span className="sec-label">Join the Celebration</span> */}
+      <h2 className="sec-heading">Join the Celebration</h2>
+      {/* <p className="section-copy">Kindly let us know if you can make it. Your presence will make this celebration whole.</p> */}
 
       <form className="rsvp-form" onSubmit={submit}>
-        <div className="form-panel">
+        {/* <div className="form-panel">
           <label>
             <span>Your name</span>
             <input required type="text" placeholder="Full name" />
@@ -64,9 +64,9 @@ export function RsvpForm() {
             <span>Phone number</span>
             <input required type="tel" placeholder="+91 00000 00000" />
           </label>
-        </div>
+        </div> */}
 
-        <div className="form-panel">
+        {/* <div className="form-panel">
           <p className="form-title">Will you join us?</p>
           <div className="radio-row">
             <button type="button" className={attending === 'yes' ? 'selected' : ''} onClick={() => setAttending('yes')}>
@@ -76,9 +76,8 @@ export function RsvpForm() {
               Regretfully decline
             </button>
           </div>
-        </div>
+        </div> */}
 
-        {attending === 'yes' && (
           <>
             <div className="form-panel">
               <label>
@@ -144,7 +143,7 @@ export function RsvpForm() {
               </label>
             </div>
           </>
-        )}
+        
 
         <button className="submit-btn" type="submit" disabled={sending}>
           {sending && <Loader2 className="spin" size={16} />}

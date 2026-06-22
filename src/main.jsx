@@ -65,7 +65,7 @@ function App() {
           </div>
 
           <AudioButton active={music.playing} onToggle={music.toggle} />
-          {unlocked && <BuyNowButton />}
+          {/* {unlocked && <BuyNowButton />} */}
         </main>
       )}
     </>

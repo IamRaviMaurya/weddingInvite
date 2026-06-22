@@ -1,5 +1,7 @@
+import coverImage from '../image/image.png';
+
 export const assets = {
-  cover: 'https://i.ibb.co/Z1Fcmczq/frame-001.jpg',
+  cover: coverImage,
   ganesha: 'https://invifest-demo.vercel.app/assets/ganesha.png',
   music: 'https://invifest-demo.vercel.app/assets/bg-music.mp3',
   yay: 'https://invifest-demo.vercel.app/assets/kids-saying-yay-sound-effect.mp3',
